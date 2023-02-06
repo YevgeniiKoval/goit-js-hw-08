@@ -1,5 +1,6 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
+
 // Change code below this line
 import SimpleLightbox from "simplelightbox";
 
@@ -29,4 +30,4 @@ const lightbox = new SimpleLightbox(".gallery a", {
     captionDelay: 250,
     captionsData: "alt"
 });
-console.log(galleryItems);
+
