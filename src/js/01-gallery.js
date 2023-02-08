@@ -16,7 +16,6 @@ const markup = galleryItems.map(({ preview, original, description }) =>
   src="${preview}" 
   alt="${description}" />
 </a>`).join('');
-console.log(markup);
 
 galleryContainer.insertAdjacentHTML('beforeend', markup);
 
